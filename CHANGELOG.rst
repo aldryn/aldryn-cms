@@ -1,6 +1,7 @@
 =========
 Changelog
 =========
+* remove `admin:cms_page_resolve` from the whitelist, as this view has been removed from the CMS.
 
 
 4.0.1.15.dev4 (2024-03-26)
