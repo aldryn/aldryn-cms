@@ -5,7 +5,7 @@ from aldryn_django_cms import __version__
 
 
 REQUIREMENTS = [
-    'django-cms==4.1.1',
+    'django-cms==4.1.2',
 
     'aldryn-addons',
     'requests',
