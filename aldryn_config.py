@@ -229,9 +229,6 @@ class Form(forms.BaseForm):
             # stage sso enabled
             # add internal endpoints that do not require authentication
             settings['ALDRYN_SSO_LOGIN_WHITE_LIST'].append(reverse_lazy('cms-check-uninstall'))
-            # this is an internal django-cms url
-            # which gets called when a user logs out from toolbar
-            settings['ALDRYN_SSO_LOGIN_WHITE_LIST'].append(reverse_lazy('admin:cms_page_resolve'))
 
         # Prevent injecting random comments to counter BREACH/CRIME attacks
         # into the page tree snippets, as the javascript parsing the result
